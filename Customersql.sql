@@ -1,5 +1,4 @@
-create database ds
-use ds
+-- Gender 
 SELECT gender, COUNT(*) AS Count_gender
 FROM customers
 GROUP BY gender;
